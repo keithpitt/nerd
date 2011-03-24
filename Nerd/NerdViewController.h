@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NerdViewController : UIViewController {
+#import "QuestionViewController.h"
+
+@interface NerdViewController : UIViewController <QuestionViewControllerDelegate> {
+    
+    NSMutableArray *questionControllers;
+    
+    QuestionViewController *currentQuestionController;
+    
+    int currentControllerIndex;
+    int answersCorrect;
     
 }
+
+- (void)nextQuestion;
+- (void)addQuestion:(NSString*)question withAnswer:(NSNumber*)answer andImage:(NSString*)image;
 
 @end

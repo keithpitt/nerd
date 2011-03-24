@@ -16,6 +16,33 @@
 		53407786133B05A600BB3329 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53407784133B05A600BB3329 /* MainWindow.xib */; };
 		53407789133B05A600BB3329 /* NerdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53407788133B05A600BB3329 /* NerdViewController.m */; };
 		5340778C133B05A600BB3329 /* NerdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5340778A133B05A600BB3329 /* NerdViewController.xib */; };
+		53407795133B063100BB3329 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 53407793133B063100BB3329 /* Background.png */; };
+		53407796133B063100BB3329 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53407794133B063100BB3329 /* Background@2x.png */; };
+		5340779A133B069700BB3329 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53407798133B069700BB3329 /* QuestionViewController.m */; };
+		5340779B133B069700BB3329 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53407799133B069700BB3329 /* QuestionViewController.xib */; };
+		534077AF133B0DB000BB3329 /* FinalResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534077AD133B0DAF00BB3329 /* FinalResultsViewController.m */; };
+		534077B0133B0DB000BB3329 /* FinalResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534077AE133B0DAF00BB3329 /* FinalResultsViewController.xib */; };
+		534077C4133B186500BB3329 /* Balmer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B1133B186500BB3329 /* Balmer@2x.png */; };
+		534077C5133B186500BB3329 /* Bulbasaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B2133B186500BB3329 /* Bulbasaur.png */; };
+		534077C6133B186500BB3329 /* Bulbasaur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B3133B186500BB3329 /* Bulbasaur@2x.png */; };
+		534077C7133B186500BB3329 /* HanSolo.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B4133B186500BB3329 /* HanSolo.png */; };
+		534077C8133B186500BB3329 /* HanSolo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B5133B186500BB3329 /* HanSolo@2x.png */; };
+		534077C9133B186500BB3329 /* Indiana.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B6133B186500BB3329 /* Indiana.png */; };
+		534077CA133B186500BB3329 /* Indiana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B7133B186500BB3329 /* Indiana@2x.png */; };
+		534077CB133B186500BB3329 /* JarJar.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B8133B186500BB3329 /* JarJar.png */; };
+		534077CC133B186500BB3329 /* JarJar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077B9133B186500BB3329 /* JarJar@2x.png */; };
+		534077CD133B186500BB3329 /* Kirk.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077BA133B186500BB3329 /* Kirk.png */; };
+		534077CE133B186500BB3329 /* Kirk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077BB133B186500BB3329 /* Kirk@2x.png */; };
+		534077CF133B186500BB3329 /* PepsiVsCoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077BC133B186500BB3329 /* PepsiVsCoke.png */; };
+		534077D0133B186500BB3329 /* PepsiVsCoke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077BD133B186500BB3329 /* PepsiVsCoke@2x.png */; };
+		534077D1133B186500BB3329 /* Prime.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077BE133B186500BB3329 /* Prime.png */; };
+		534077D2133B186500BB3329 /* Prime@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077BF133B186500BB3329 /* Prime@2x.png */; };
+		534077D3133B186500BB3329 /* Sonic.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077C0133B186500BB3329 /* Sonic.png */; };
+		534077D4133B186500BB3329 /* Sonic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077C1133B186500BB3329 /* Sonic@2x.png */; };
+		534077D5133B186500BB3329 /* SteveJobs.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077C2133B186500BB3329 /* SteveJobs.png */; };
+		534077D6133B186500BB3329 /* SteveJobs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077C3133B186500BB3329 /* SteveJobs@2x.png */; };
+		534077D8133B196800BB3329 /* Balmer.png in Resources */ = {isa = PBXBuildFile; fileRef = 534077D7133B196800BB3329 /* Balmer.png */; };
+		534077DA133B1A5B00BB3329 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534077D9133B1A5B00BB3329 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +50,45 @@
 		53407772133B05A600BB3329 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		53407774133B05A600BB3329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53407776133B05A600BB3329 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5340777A133B05A600BB3329 /* Nerd-Info.plist */ = {isa = PBXFileReference; path = "Nerd-Info.plist"; sourceTree = "<group>"; };
+		5340777A133B05A600BB3329 /* Nerd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nerd-Info.plist"; sourceTree = "<group>"; };
 		5340777C133B05A600BB3329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5340777E133B05A600BB3329 /* Nerd-Prefix.pch */ = {isa = PBXFileReference; path = "Nerd-Prefix.pch"; sourceTree = "<group>"; };
+		5340777E133B05A600BB3329 /* Nerd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nerd-Prefix.pch"; sourceTree = "<group>"; };
 		5340777F133B05A600BB3329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		53407781133B05A600BB3329 /* NerdAppDelegate.h */ = {isa = PBXFileReference; path = NerdAppDelegate.h; sourceTree = "<group>"; };
+		53407781133B05A600BB3329 /* NerdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NerdAppDelegate.h; sourceTree = "<group>"; };
 		53407782133B05A600BB3329 /* NerdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdAppDelegate.m; sourceTree = "<group>"; };
 		53407785133B05A600BB3329 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		53407787133B05A600BB3329 /* NerdViewController.h */ = {isa = PBXFileReference; path = NerdViewController.h; sourceTree = "<group>"; };
+		53407787133B05A600BB3329 /* NerdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NerdViewController.h; sourceTree = "<group>"; };
 		53407788133B05A600BB3329 /* NerdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdViewController.m; sourceTree = "<group>"; };
 		5340778B133B05A600BB3329 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NerdViewController.xib; sourceTree = "<group>"; };
+		53407793133B063100BB3329 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		53407794133B063100BB3329 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		53407797133B069700BB3329 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		53407798133B069700BB3329 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		53407799133B069700BB3329 /* QuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		534077AC133B0DAE00BB3329 /* FinalResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalResultsViewController.h; sourceTree = "<group>"; };
+		534077AD133B0DAF00BB3329 /* FinalResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalResultsViewController.m; sourceTree = "<group>"; };
+		534077AE133B0DAF00BB3329 /* FinalResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinalResultsViewController.xib; sourceTree = "<group>"; };
+		534077B1133B186500BB3329 /* Balmer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Balmer@2x.png"; sourceTree = "<group>"; };
+		534077B2133B186500BB3329 /* Bulbasaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bulbasaur.png; sourceTree = "<group>"; };
+		534077B3133B186500BB3329 /* Bulbasaur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bulbasaur@2x.png"; sourceTree = "<group>"; };
+		534077B4133B186500BB3329 /* HanSolo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HanSolo.png; sourceTree = "<group>"; };
+		534077B5133B186500BB3329 /* HanSolo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HanSolo@2x.png"; sourceTree = "<group>"; };
+		534077B6133B186500BB3329 /* Indiana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indiana.png; sourceTree = "<group>"; };
+		534077B7133B186500BB3329 /* Indiana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indiana@2x.png"; sourceTree = "<group>"; };
+		534077B8133B186500BB3329 /* JarJar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JarJar.png; sourceTree = "<group>"; };
+		534077B9133B186500BB3329 /* JarJar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JarJar@2x.png"; sourceTree = "<group>"; };
+		534077BA133B186500BB3329 /* Kirk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kirk.png; sourceTree = "<group>"; };
+		534077BB133B186500BB3329 /* Kirk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kirk@2x.png"; sourceTree = "<group>"; };
+		534077BC133B186500BB3329 /* PepsiVsCoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PepsiVsCoke.png; sourceTree = "<group>"; };
+		534077BD133B186500BB3329 /* PepsiVsCoke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PepsiVsCoke@2x.png"; sourceTree = "<group>"; };
+		534077BE133B186500BB3329 /* Prime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prime.png; sourceTree = "<group>"; };
+		534077BF133B186500BB3329 /* Prime@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Prime@2x.png"; sourceTree = "<group>"; };
+		534077C0133B186500BB3329 /* Sonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sonic.png; sourceTree = "<group>"; };
+		534077C1133B186500BB3329 /* Sonic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sonic@2x.png"; sourceTree = "<group>"; };
+		534077C2133B186500BB3329 /* SteveJobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SteveJobs.png; sourceTree = "<group>"; };
+		534077C3133B186500BB3329 /* SteveJobs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SteveJobs@2x.png"; sourceTree = "<group>"; };
+		534077D7133B196800BB3329 /* Balmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Balmer.png; sourceTree = "<group>"; };
+		534077D9133B1A5B00BB3329 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534077DA133B1A5B00BB3329 /* QuartzCore.framework in Frameworks */,
 				53407773133B05A600BB3329 /* UIKit.framework in Frameworks */,
 				53407775133B05A600BB3329 /* Foundation.framework in Frameworks */,
 				53407777133B05A600BB3329 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +126,7 @@
 		53407771133B05A600BB3329 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				534077D9133B1A5B00BB3329 /* QuartzCore.framework */,
 				53407772133B05A600BB3329 /* UIKit.framework */,
 				53407774133B05A600BB3329 /* Foundation.framework */,
 				53407776133B05A600BB3329 /* CoreGraphics.framework */,
@@ -85,6 +143,13 @@
 				53407787133B05A600BB3329 /* NerdViewController.h */,
 				53407788133B05A600BB3329 /* NerdViewController.m */,
 				5340778A133B05A600BB3329 /* NerdViewController.xib */,
+				53407797133B069700BB3329 /* QuestionViewController.h */,
+				53407798133B069700BB3329 /* QuestionViewController.m */,
+				53407799133B069700BB3329 /* QuestionViewController.xib */,
+				534077AC133B0DAE00BB3329 /* FinalResultsViewController.h */,
+				534077AD133B0DAF00BB3329 /* FinalResultsViewController.m */,
+				534077AE133B0DAF00BB3329 /* FinalResultsViewController.xib */,
+				53407792133B063100BB3329 /* Images */,
 				53407779133B05A600BB3329 /* Supporting Files */,
 			);
 			path = Nerd;
@@ -99,6 +164,35 @@
 				5340777F133B05A600BB3329 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53407792133B063100BB3329 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				534077D7133B196800BB3329 /* Balmer.png */,
+				534077B1133B186500BB3329 /* Balmer@2x.png */,
+				534077B2133B186500BB3329 /* Bulbasaur.png */,
+				534077B3133B186500BB3329 /* Bulbasaur@2x.png */,
+				534077B4133B186500BB3329 /* HanSolo.png */,
+				534077B5133B186500BB3329 /* HanSolo@2x.png */,
+				534077B6133B186500BB3329 /* Indiana.png */,
+				534077B7133B186500BB3329 /* Indiana@2x.png */,
+				534077B8133B186500BB3329 /* JarJar.png */,
+				534077B9133B186500BB3329 /* JarJar@2x.png */,
+				534077BA133B186500BB3329 /* Kirk.png */,
+				534077BB133B186500BB3329 /* Kirk@2x.png */,
+				534077BC133B186500BB3329 /* PepsiVsCoke.png */,
+				534077BD133B186500BB3329 /* PepsiVsCoke@2x.png */,
+				534077BE133B186500BB3329 /* Prime.png */,
+				534077BF133B186500BB3329 /* Prime@2x.png */,
+				534077C0133B186500BB3329 /* Sonic.png */,
+				534077C1133B186500BB3329 /* Sonic@2x.png */,
+				534077C2133B186500BB3329 /* SteveJobs.png */,
+				534077C3133B186500BB3329 /* SteveJobs@2x.png */,
+				53407793133B063100BB3329 /* Background.png */,
+				53407794133B063100BB3329 /* Background@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +248,30 @@
 				5340777D133B05A600BB3329 /* InfoPlist.strings in Resources */,
 				53407786133B05A600BB3329 /* MainWindow.xib in Resources */,
 				5340778C133B05A600BB3329 /* NerdViewController.xib in Resources */,
+				53407795133B063100BB3329 /* Background.png in Resources */,
+				53407796133B063100BB3329 /* Background@2x.png in Resources */,
+				5340779B133B069700BB3329 /* QuestionViewController.xib in Resources */,
+				534077B0133B0DB000BB3329 /* FinalResultsViewController.xib in Resources */,
+				534077C4133B186500BB3329 /* Balmer@2x.png in Resources */,
+				534077C5133B186500BB3329 /* Bulbasaur.png in Resources */,
+				534077C6133B186500BB3329 /* Bulbasaur@2x.png in Resources */,
+				534077C7133B186500BB3329 /* HanSolo.png in Resources */,
+				534077C8133B186500BB3329 /* HanSolo@2x.png in Resources */,
+				534077C9133B186500BB3329 /* Indiana.png in Resources */,
+				534077CA133B186500BB3329 /* Indiana@2x.png in Resources */,
+				534077CB133B186500BB3329 /* JarJar.png in Resources */,
+				534077CC133B186500BB3329 /* JarJar@2x.png in Resources */,
+				534077CD133B186500BB3329 /* Kirk.png in Resources */,
+				534077CE133B186500BB3329 /* Kirk@2x.png in Resources */,
+				534077CF133B186500BB3329 /* PepsiVsCoke.png in Resources */,
+				534077D0133B186500BB3329 /* PepsiVsCoke@2x.png in Resources */,
+				534077D1133B186500BB3329 /* Prime.png in Resources */,
+				534077D2133B186500BB3329 /* Prime@2x.png in Resources */,
+				534077D3133B186500BB3329 /* Sonic.png in Resources */,
+				534077D4133B186500BB3329 /* Sonic@2x.png in Resources */,
+				534077D5133B186500BB3329 /* SteveJobs.png in Resources */,
+				534077D6133B186500BB3329 /* SteveJobs@2x.png in Resources */,
+				534077D8133B196800BB3329 /* Balmer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +285,8 @@
 				53407780133B05A600BB3329 /* main.m in Sources */,
 				53407783133B05A600BB3329 /* NerdAppDelegate.m in Sources */,
 				53407789133B05A600BB3329 /* NerdViewController.m in Sources */,
+				5340779A133B069700BB3329 /* QuestionViewController.m in Sources */,
+				534077AF133B0DB000BB3329 /* FinalResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
