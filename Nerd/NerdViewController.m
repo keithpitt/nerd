@@ -44,7 +44,7 @@
            withAnswer:WO_YES
              andImage:@"Balmer"];
     
-    [self addQuestion:@"Sonic the Hedgehog's main characters name was Steve"
+    [self addQuestion:@"Sonic the Hedgehogs main characters name was Steve"
            withAnswer:WO_NO
              andImage:@"Sonic"];
     
@@ -64,7 +64,7 @@
            withAnswer:WO_YES
              andImage:@"Indiana"];
     
-    [self addQuestion:@"Was Jar Jar Binks' character good in Star Wars Episode I"
+    [self addQuestion:@"Was Jar Jar Binks character good in Star Wars Episode I"
            withAnswer:WO_NO
              andImage:@"JarJar"];
     
@@ -115,7 +115,7 @@
         } else if (answersCorrect < (totalQuestions / 2)) {
             finalResultsController.conclusion = @"Only part nerd.";
         } else if (answersCorrect > (totalQuestions / 2)) {
-            finalResultsController.conclusion = @"Your are mostly a nerd, mostly.";
+            finalResultsController.conclusion = @"You are mostly a nerd, mostly.";
         }
         
         [currentQuestionController.view removeFromSuperview];
