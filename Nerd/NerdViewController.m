@@ -9,7 +9,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 #import "NerdViewController.h"
-#import "FinalResultsViewController.h"
 
 @implementation NerdViewController
 
@@ -94,11 +93,22 @@
     
 }
 
+- (void)onReadyToReset {
+    
+    [finalResultsController.view removeFromSuperview];
+    
+    currentControllerIndex = -1;
+    
+    [self nextQuestion];
+    
+}
+
 - (void)nextQuestion {
     
     if (currentControllerIndex == ([questionControllers count]-1)) {
         
-        FinalResultsViewController *finalResultsController = [[FinalResultsViewController alloc] initWithNibName:@"FinalResultsViewController" bundle:nil];
+        finalResultsController = [[FinalResultsViewController alloc] initWithNibName:@"FinalResultsViewController" bundle:nil];
+        finalResultsController.delegate = self;
         
         int totalQuestions = [questionControllers count];
         

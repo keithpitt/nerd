@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class FinalResultsViewController;
+
+@protocol FinalResultsViewControllerDelegate <NSObject>
+
+- (void)onReadyToReset;
+
+@end
+
 @interface FinalResultsViewController : UIViewController {
     
     UILabel *resultsCountLabel;
@@ -15,6 +23,9 @@
     
     NSString *results;
     NSString *conclusion;
+    UIButton *resetButton;
+    
+    id <FinalResultsViewControllerDelegate> _delegate;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *conclusionLabel;
@@ -22,5 +33,8 @@
 
 @property (nonatomic, retain) NSString *results;
 @property (nonatomic, retain) NSString *conclusion;
+@property (nonatomic, retain) IBOutlet UIButton *resetButton;
+
+@property (nonatomic, retain) id <FinalResultsViewControllerDelegate> delegate;
 
 @end

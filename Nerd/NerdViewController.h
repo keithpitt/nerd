@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 
 #import "QuestionViewController.h"
+#import "FinalResultsViewController.h"
 
-@interface NerdViewController : UIViewController <QuestionViewControllerDelegate> {
+@interface NerdViewController : UIViewController <QuestionViewControllerDelegate, FinalResultsViewControllerDelegate> {
     
     NSMutableArray *questionControllers;
     
     QuestionViewController *currentQuestionController;
+    FinalResultsViewController *finalResultsController;
     
     int currentControllerIndex;
     int answersCorrect;

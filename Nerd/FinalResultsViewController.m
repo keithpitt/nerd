@@ -14,7 +14,10 @@
 @synthesize resultsCountLabel;
 
 @synthesize conclusion;
+@synthesize resetButton;
 @synthesize results;
+
+@synthesize delegate = _delegate;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +32,7 @@
 {
     [resultsCountLabel release];
     [conclusionLabel release];
+    [resetButton release];
     [super dealloc];
 }
 
@@ -40,6 +44,13 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+- (IBAction)resetButtonPressed:(id)sender {
+    
+    [self.delegate onReadyToReset];
+    
+    // NSLog(@"Reset button pressed");
+    
+}
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -55,6 +66,7 @@
 {
     [self setResultsCountLabel:nil];
     [self setConclusionLabel:nil];
+    [self setResetButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
